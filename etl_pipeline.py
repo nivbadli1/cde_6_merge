@@ -1,6 +1,10 @@
 # ETL Pipeline
 import logging
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
 def extract_data():
     try:
         print("Extracting data from source")
