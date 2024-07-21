@@ -1,4 +1,5 @@
 # ETL Pipeline
+import logging
 
 def extract_data():
     try:
